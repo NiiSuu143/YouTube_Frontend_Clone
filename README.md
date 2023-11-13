@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Output
+
+![Screenshot 2023-11-13 154516](https://github.com/NiiSuu143/YouTube_Frontend_Clone/assets/149679930/471719ca-8490-48d7-9f20-826ae00b80f9)
+
 ## Available Scripts
 
 In the project directory, you can run:
