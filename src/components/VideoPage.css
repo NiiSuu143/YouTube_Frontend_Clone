@@ -1,0 +1,464 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.videopage {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 1950px;
+    background-color: aqua;
+}
+.header {
+    height: 65px;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    border-bottom: white;
+}
+.mainbody {
+    display: flex;
+    background-color: white ;
+    border: 1px solid black;
+    border-top: white;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.logowithmenu {
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid black; */
+    height: 55px;
+    width: 200px;
+    margin-left: 15px;
+}
+.menulogo {
+    margin-top: 10px;
+}
+.logo {
+    height: 55px;
+    /* border: 1px solid black; */
+    /* margin: 4px; */
+    margin-left: 20px;
+    border-radius: 40px;
+    padding-top: 5px;
+    /* align-items: center; */
+}
+.search {
+    height: 40px;
+    width: 640px;
+    /* border: 1px solid black; */
+    /* margin: 10px; */
+    /* border-radius: 10px; */
+    text-align: center;
+}
+.searchbar {
+    width: 500px;
+    height: 38px;
+    border-radius: 20px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    /* margin-top: 10px; */
+    padding-left: 15px;
+    border: 1px solid rgb(41, 41, 41);
+}
+.searchbutton {
+    height: 40px;
+    width: 63px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid rgb(82, 82, 82);
+}
+.micbutton {
+    width: 38px;
+    height: 38px;
+    border-radius: 38px;
+    border: rgb(232, 232, 232);
+    align-content: center;
+    margin-left: 15px;
+    background-color: rgb(232, 232, 232);
+    cursor: pointer;
+}
+.miclogo {
+    margin-top: 7px;
+}
+.micbutton:hover {
+    background-color:  rgb(219, 219, 219); 
+}
+.signup {
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid black; */
+    height: 55px;
+    width: 170px;
+    /* margin-top: 10px; */
+    justify-content: space-around;
+}
+.upload {
+    height: 27px;
+    margin-top: 14px;
+    cursor: pointer;
+}
+.upload:hover {
+    background-color:  rgb(232, 232, 232); 
+}
+.notification {
+    height: 43px;
+    margin-top: 3px;
+    cursor: pointer;
+}
+.notification:hover {
+    background-color:  rgb(232, 232, 232); 
+}
+.profilephoto {
+    height: 33px;
+    width: 33px;
+    border-radius: 33px;
+    margin-top: 12px;
+    cursor: pointer;
+}
+.maincontent {
+    display: flex;
+    justify-content: flex-start;
+    height: 1010px;
+    /* background-color: aqua; */
+}
+.viewmainvideo {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1400px;
+    /* align-content: center; */
+    /* border: 1px solid black; */
+    border-right: white;
+    border-top: white;
+    background-color: white;
+}
+.contentitem {
+    /* border: 1px solid black; */
+    width: 1275px;
+    height: 822px;
+    /* background-color: rgb(255, 255, 255); */
+    margin: 11px;
+    margin-left: 100px;
+}
+.videoitembox {
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    height: 720px;
+}
+.videodetails {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    height: 85px;
+    margin-top: 13px;
+    /* justify-content: space-between; */
+}
+.videoholderdetail {
+    /* border: 1px solid black; */
+    /* background-color: blueviolet; */
+    /* width: 500px; */
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+}
+.holdernamewithtime {
+    /* border: 1px solid black; */
+    width: 110px;
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+.accountholders {
+    /* border: 1px solid black; */
+    width: 110px;
+    height: 20px;
+    margin-left: 0px;
+    /* font-size: large; */
+    cursor: pointer;
+}
+.subscribers {
+    /* border: 1px solid black; */
+    width: 110px;
+    height: 15px;  
+    font-size: small;
+}
+.userlogos {
+    /* border: 1px solid black; */
+    width: 40px;
+    height: 40px; 
+    border-radius: 40px;
+    margin-top: 10px;
+}
+.caption {
+    /* border: 1px solid black; */
+    /* background-color: brown; */
+    height: 50px;
+    font-size: large;
+}
+.videoplay {
+    width: 1275px;
+    height: 720px;
+    border-radius: 13px;
+}
+.image1 {
+    height: 40px; 
+    width: 40px;
+    border-radius: 100px;
+}
+.subscribebutton {
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 13px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding-top: 5px;
+    cursor: pointer;
+}
+.controlbox {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    width: 550px;
+    height: 35px;
+    margin-left: 440px;
+    margin-top: 13px;
+}
+.ctrbutton {
+    /* border: 1px solid black; */
+    background-color:  rgb(232, 232, 232); 
+    width: 130px;
+    height: 35px;
+}
+.likebutton {
+    display: flex;
+    width: 261px;
+    height: 33px;
+}
+.like {
+    /* border: 1px solid red; */
+    background-color:  rgb(232, 232, 232); 
+    width: 90px;
+    height: 35px;
+    display: flex;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    cursor: pointer;
+}
+.like:hover {
+    background-color:  rgb(200, 200, 200);
+}
+.likelogo {
+    margin-top: 8px;
+    margin-left: 17px;
+}
+.liketext {
+    margin-top: 4px;
+    margin-left: 8px;
+    font-size: medium;
+}
+.dislike {
+    /* border: 1px solid red; */
+    background-color:  rgb(232, 232, 232); 
+    width: 60px;
+    height: 35px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-left: 1px solid rgb(185, 185, 185);
+}
+.dislike:hover {
+    background-color:  rgb(200, 200, 200);
+}
+.dislikelogo {
+    margin-left: 18px;
+    margin-top: 8px;
+}
+.share {
+    display: flex;
+    /* border: 1px solid red; */
+    background-color:  rgb(232, 232, 232); 
+    width: 95px;
+    height: 35px;
+    margin-left: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.share:hover {
+    background-color:  rgb(200, 200, 200);
+}
+.sharelogo {
+    margin-left: 10px;
+    margin-top: 6px;
+}
+.sharetext {
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: medium;
+}
+.downloadbutton {
+    display: flex;
+    width: 125px;
+    height: 35px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.downloadbutton:hover {
+    background-color:  rgb(200, 200, 200);
+}
+.downloadlogo {
+    margin-top: 7px;
+    margin-left: 12px;
+}
+.downloadtext {
+    margin-top: 5px;
+    margin-left: 9px;
+    font-size: medium;
+}
+.clipbutton {
+    display: flex;
+    width: 80px;
+    height: 35px;
+    border-radius: 20px;
+    background-color:  rgb(232, 232, 232); 
+    cursor: pointer;
+}
+.clipbutton:hover {
+    background-color:  rgb(200, 200, 200);
+}
+.cliplogo {
+    margin-top: 7px;
+    margin-left: 10px;
+}
+.cliptext {
+    margin-top: 5px;
+    margin-left: 8px;
+    font-size: medium;
+}
+.morebutton {
+    width: 35px;
+    height: 35px;
+    border-radius: 35px;
+    background-color:  rgb(232, 232, 232); 
+    cursor: pointer;
+}
+.morebutton:hover {
+    background-color:  rgb(200, 200, 200);
+}
+.moretext {
+    margin-left: 10px;
+}
+.descriptionbox {
+    /* border: 1px solid black; */
+    /* width: 570px; */
+    height: 70px;
+    margin-top: 15px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(214, 214, 214);
+}
+.viewsidevideo {
+    display: flex ;
+    /* border: 1px solid black; */
+    border-top: white;
+    width: 500px;
+    height: 1010px;
+    flex-direction: column;
+    background-color: white;
+    /* text-align: center; */
+}
+.recommendedbar {
+    display: flex;
+    /* border: 1px solid black; */
+    flex-direction: column;
+    width: 400px;
+    height: 1010px;
+}
+.optionbar {
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid black; */
+    width: 400px;
+    height: 30px;
+    justify-content: space-between;
+}
+.sideupperbutton {
+    /* border: 1px solid black; */
+    width: 80px;
+    height: 30px;
+    /* background-color: brown; */
+    border-radius: 5px;
+    cursor: pointer;
+}
+.sideupperbutton:hover {
+    background-color:  rgb(200, 200, 200);
+}
+.b1 {
+    /* border: 1px solid black; */
+    width: 50px;
+    height: 30px;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+}
+.b1:hover {
+    background-color:  black;
+}
+.b3 {
+    /* border: 1px solid black; */
+    width: 170px;
+    height: 30px;
+    /* background-color: brown; */
+    border-radius: 5px;
+}
+.recommendedvideos {
+    /* border: 1px solid black; */
+    width: 170px;
+    height: 100px;
+    background-color: rgb(69, 67, 67);
+    /* margin-top: 20px; */
+    border-radius: 10px;
+}
+.videowithdetails {
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid black; */
+    width: 400px;
+    height: 100px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.sidevideodetails {
+    display: flex;
+    flex-direction: column;
+}
+.sidevideocaption {
+    /* border: 1px solid black; */
+    width: 225px;
+    height: 60px;
+    margin-left: 10px;
+}
+.sidevideoholder {
+    /* border: 1px solid black; */
+    width: 225px;
+    height: 18px;
+    margin-left: 10px;
+}
+.sidevideotime {
+    /* border: 1px solid black; */
+    width: 225px;
+    height: 18px;
+    margin-left: 10px;
+}
+.sidevideo {
+    width: 170px;
+    height: 100px;
+    border-radius: 10px;
+}
